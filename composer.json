@@ -1,0 +1,13 @@
+{
+    "name": "invoice-system/invoice-system",
+    "description": "Invoice management system with PDF export",
+    "require": {
+        "php": ">=7.4",
+        "dompdf/dompdf": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "InvoiceSystem\\": "src/"
+        }
+    }
+}

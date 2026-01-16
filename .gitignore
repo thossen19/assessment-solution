@@ -1,0 +1,31 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+*.swp
+*.swo
+*~
+
+# PHP
+vendor/
+composer.lock
+*.log
+
+# Test files (temporary)
+data/test_invoices.json
+
+# Generated files
+invoice_*.html
+invoice_*.pdf
+
+# System files
+Thumbs.db
+.env
+.env.local
+
+# Backup files
+*.bak
+*.backup
+*~
