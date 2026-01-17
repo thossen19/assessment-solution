@@ -3,8 +3,9 @@
 **1 .Technical Approach**
 Question: Which critical bug did you find most challenging to fix, and why?
 Answer: The most challenging bug was the tax calculation returning $10.00 instead of $7.25.
+
 Question: What was your debugging process for identifying the root causes?
-Answer: following critical bug did you find most challenging to fix:
+Answer: My debugging process was as following:
 * Isolate Before Integrating - Test components individually
 * Reproduce Consistently - Create reproducible test cases
 * Compare Contexts - Check different execution environments
@@ -13,8 +14,8 @@ Answer: following critical bug did you find most challenging to fix:
 * Verify Extensively - Prevent regression issues
 
 **2. Feature Implementation**
-Question Which incomplete feature(s) did you choose to implement, and why?
-Incomplete Features Implemented: 
+Question: Which incomplete feature(s) did you choose to implement, and why?
+Answer: following Incomplete Features has been Implemented: 
 
 * PDF Generation System. Why: Critical for professional invoice
 * Dynamic Tax Rate Loading. Why: Required for multi-region business operations
@@ -26,8 +27,8 @@ Question:  If you implemented PDF generation, which library did you choose and w
 **3. Code Quality**
 
 Question: What improvements did you make to the codebase beyond the required fixes?
-Answer: 
-**Improvements**
+Answer: Following improvements I made
+
 * Architecture & Design Improvements - Interface-Based Design.
 * PSR-4 Namespace Organization. 
 * Security & Robustness - Enhanced Input Validation.
@@ -37,15 +38,15 @@ Answer:
 * Business Value Additions - Professional Features. 
 
 Question: Are there any areas of the code you would refactor further given more time? Please explain.
-Code Refactoring
+Answer:  Yes I did which given below
+
 * Invoice Class - Separation of Concerns. Invoice Calculator - Code Duplication. 
 * PDFGenerator - Mixed Responsibilities. Error Handling - Inconsistent Patterns. 
 * Data Validation - Scattered Logic. Test Coverage Gaps. API Design Inconsistencies. Missing Features for Production. Document preparation
 
 **4. Testing**
 Question: Describe your approach to testing your changes.
-Answer: 
-Testing Approach for Invoice System Changes
+Answer:Bellow Testing Approach for Invoice System Changes.
 * Unit Tests: Test each class/method individually with PHPUnit
 * Integration Tests: Test component interactions (file I/O, tax system, PDF generation) 
 * Edge Cases: Boundary values, invalid inputs, error scenarios 
@@ -53,7 +54,6 @@ Testing Approach for Invoice System Changes
 * Performance Tests: Large datasets, concurrent operations 
 Test Isolation: Temporary files, cleanup between tests 
 * CI/CD: Automated test execution, 90%+ coverage requirement
-
 
 Question: Did you add any new tests? If so, what do they cover?
 Answer: Yes I added following test and coverage:
