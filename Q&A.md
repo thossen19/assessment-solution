@@ -4,7 +4,7 @@
 Question: Which critical bug did you find most challenging to fix, and why?
 Answer: The most challenging bug was the tax calculation returning $10.00 instead of $7.25.
 Question: What was your debugging process for identifying the root causes?
-Answer:
+Answer: following critical bug did you find most challenging to fix:
 * Isolate Before Integrating - Test components individually
 * Reproduce Consistently - Create reproducible test cases
 * Compare Contexts - Check different execution environments
@@ -109,4 +109,5 @@ Answer: 4 Hours and 33 minutes
 
 Question: If you had an additional 2 hours, what would you prioritize?
 Answer: Improve error handling and Code Quality 
+
 
