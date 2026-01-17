@@ -1,5 +1,7 @@
-### **Question and Answer
-**
+
+
+## Question and Answer
+
 # 1 .Technical Approach
 Question: Which critical bug did you find most challenging to fix, and why?
 Answer: The most challenging bug was the tax calculation returning $10.00 instead of $7.25.
@@ -73,3 +75,4 @@ Answer: 4 Hours and 33 minutes
 
 Question: If you had an additional 2 hours, what would you prioritize?
 Answer: Improve error handling and Code Quality 
+
