@@ -1,5 +1,4 @@
 Question and Answer:
-
 1 .Technical Approach
 Question: Which critical bug did you find most challenging to fix, and why?
 Answer: The most challenging bug was the tax calculation returning $10.00 instead of $7.25.
@@ -11,7 +10,6 @@ c)	Compare Contexts - Check different execution environments
 d)	Follow Data Flow - Trace from input to output
 e)	Minimal Changes - Fix only what's broken
 f)	Verify Extensively - Prevent regression issues
-
 2. Feature Implementation
 Question Which incomplete feature(s) did you choose to implement, and why?
 Incomplete Features Implemented: 
@@ -21,8 +19,8 @@ o	Discount Business Rules. Why: Automated business logic for customer pricing
 o	Comprehensive Input Validation. Why: Data integrity and security requirement
 o	Sequential Invoice Numbering. Why: Professional business requirement, What Was Incomplete
 Question:  If you implemented PDF generation, which library did you choose and what influenced your decision? Answer : dompdf
-3. Code Quality
 
+3. Code Quality
 Question: What improvements did you make to the codebase beyond the required fixes?
 Answer: Architecture & Design Improvements, Interface-Based Design. PSR-4 Namespace Organization. Security & Robustness, Enhanced Input Validation. Memory-Efficient JSON Handling. Testing Infrastructure, Comprehensive Test Suite. Development Experience
 Composer Integration. Business Value Additions Professional Features. 
